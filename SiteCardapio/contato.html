@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Contato</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    background:#F04E23;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px 20px;
+}
+header h1{ font-size:42px; }
+
+nav{ margin-top:20px; }
+nav a{
+    color:white;
+    margin:0 18px;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+nav a:hover{text-decoration:underline;}
+
+.container{
+    background:#ff6e40;
+    width:85%;
+    margin:40px auto;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+form{
+    max-width:450px;
+    margin:auto;
+    text-align:left;
+}
+
+label{font-size:20px;}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    margin-top:5px;
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    background:white;
+    color:#F04E23;
+    border:none;
+    border-radius:8px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.icons{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.icons img{
+    width:90px;
+    height:90px;
+}
+footer{
+    margin-top:60px;
+    padding:20px;
+    background:#d53f17;
+    text-align:center;
+    font-size:18px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Formas de Contato</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="paises.html">Países</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Envie sua mensagem</h2><br>
+
+    <form>
+        <label>Nome</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Mensagem</label>
+        <textarea rows="5" required></textarea>
+
+        <button>Enviar</button>
+    </form>
+
+    <div class="icons">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+        <img src="imagens/envelope.png">
+    </div>
+</div>
+
+<footer>Sabores da América do Sul • 2025</footer>
+
+</body>
+</html>
